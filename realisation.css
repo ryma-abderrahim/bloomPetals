@@ -1,0 +1,135 @@
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#myHeader{
+    background-color: #D8CA9F;
+    width: 100%;
+    z-index:100 ;
+    height: 110px;
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+
+#myHeader img{
+    width: 130px;
+    height: 90px;
+}
+
+nav{
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Damion', cursive;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between ;
+}
+
+a{
+  color:rgb(7, 1, 4);
+  text-decoration: none;
+}
+
+nav li{
+   display: inline;
+   list-style: none;
+   margin-right: 20px;
+}
+form{
+    margin-left: 12cm;
+}
+
+input{
+    margin: 8px 20px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 30px;
+    border:none;
+    background-color: #f2f2f2;
+    outline:none;
+
+}
+
+/* body*/
+
+.titre{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Damion', cursive;
+}
+
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Damion', cursive;
+}
+
+
+.realisation {
+    margin-top: 3cm;
+}
+
+.images{
+    padding: 20px;
+    width:1300px;
+    max-width:100%;
+    margin:0 auto;
+    column-count:3;
+    column-gap:15px;
+}
+  
+.photo img{
+    display:block;
+    width:100%;
+    height: auto;
+    margin:0 0 15px 0;
+    border-radius:20px;
+    transition:0.2s ease-in-out;
+}
+  
+.photo img:hover{
+    transform:scale(0.9);
+}
+  
+  
+
+
+footer{
+    background-color: #D8CA9F;
+    background-image: url(../BloomPetals/images/footer.png);
+    background-repeat: repeat;
+    background-size: contain;
+    z-index: 100;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    position: fixed;
+}

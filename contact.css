@@ -1,0 +1,182 @@
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#myHeader{
+    background-color: #D8CA9F;
+    width: 100%;
+    z-index:100 ;
+    height: 110px;
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+
+#myHeader img{
+    width: 130px;
+    height: 90px;
+}
+
+nav{
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Damion', cursive;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between ;
+}
+
+a{
+  color:rgb(7, 1, 4);
+  text-decoration: none;
+}
+
+nav li{
+   display: inline;
+   list-style: none;
+   margin-right: 20px;
+}
+form{
+    margin-left: 12cm;
+}
+
+.recherche2{
+    margin: 8px 20px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 30px;
+    border:none;
+    background-color: #f2f2f2;
+    outline:none;
+
+}
+
+/* body*/
+
+#-form{
+    background-color: #D8CA9F;
+    border-radius: 10px;
+    width:fit-content;
+    height: 100%;
+    margin: auto;
+    padding-top: 2cm;
+    margin-top: 5cm;
+    margin-bottom: 5cm;
+}
+
+#-form p{
+    font-family: 'Damion', cursive;   
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2cm;
+    margin-top: 5cm;
+}
+
+#-form img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.labels{
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+	padding: 5px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.rightTab{
+	display: inline-block;
+	text-align: left;
+	width: 48%;
+	vertical-align: middle;
+}
+
+.input-field{
+	height: 20px;
+	width: 280px;
+	padding: 5px;
+	margin:10px;
+	border: 1px solid #c0c0c0;
+	border-radius: 2px;
+}
+
+
+input [type="checkbox"] {
+	float:left;
+	margin-right: 5px;
+}	
+
+#submit {
+    position: relative;
+    background-color: #927828;
+    border-radius: 4px;
+    color: black;
+    font-size: 1em;
+    height: 40px;
+    width: 13%;
+    margin: 10px;
+    border: 0px solid;
+   
+}
+
+	
+
+.checkbox{
+	position: relative;
+	left: -43px;
+	margin-left: 10px;
+	display: block;
+	padding-bottom: 10px;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    /* CSS pour les écrans large (partie responsive)*/
+}
+
+footer{
+    background-color: #D8CA9F;
+    background-image: url(../BloomPetals/images/footer.png);
+    background-repeat: repeat;
+    background-size: contain;
+    z-index: 100;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    position: fixed;
+}

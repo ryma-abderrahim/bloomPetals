@@ -1,0 +1,177 @@
+/*fond*/
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*header*/
+#myHeader{
+    background-color: #D8CA9F;
+    width: 100%;
+    z-index:100 ;
+    height: 110px;
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+
+#myHeader img{
+    width: 130px;
+    height: 90px;
+}
+
+nav{
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Damion', cursive;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between ;
+}
+
+a{
+  color:rgb(7, 1, 4);
+  text-decoration: none;
+}
+
+nav li{
+   display: inline;
+   list-style: none;
+   margin-right: 20px;
+}
+form{
+    margin-left: 12cm;
+}
+
+input{
+    margin: 8px 20px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 30px;
+    border:none;
+    background-color: #f2f2f2;
+    outline:none;
+
+}
+
+/* body*/
+
+
+.description h2{
+    color: black;
+    text-align: center;
+    font-family: 'Damion', cursive;
+    font-size: 50px;
+    margin-top: 5cm;
+}
+
+.description p{
+    font-family: 'Damion', cursive;
+    font-size: 25px;
+    text-align: center;
+    margin: 1cm;
+    margin-bottom: 4cm;
+}
+
+.case{
+    background-color: rgba(237, 226, 188, 0.635);
+    height: 100%;
+    width: 100%;
+    border-bottom: 0.5px solid  #1a1814;
+    border-top: 0.5px solid  #1a1814 ;
+    margin-bottom: 3cm;
+}
+
+.case2{
+    background-color: rgba(129, 103, 13, 0.635);
+    height: 200px;
+    width: 100%;
+    border-bottom: 0.5px solid  #1a1814;
+    border-top: 0.5px solid  #1a1814 ;
+    margin-bottom: 3cm;
+    margin-top: 3cm;
+}
+
+.photos{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 3cm;
+}
+
+.photos img {
+    height: 145px;
+    width: 200px;
+    border : 5px solid #4d3e1176;
+    padding: 0.5px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between  ;
+    margin-bottom: 3cm;
+}
+
+.titre{
+    display: flex;
+}
+
+.titre img{
+    height: 30px;
+    width: 40px;
+    margin-top: 15px;
+  
+}
+
+.titre h3{
+    font-family: 'Damion', cursive;
+    font-size: 30px;
+}
+
+.services p{
+    color: black;
+    font-size: 20px;
+    font-family : 'Neuton', empattement ;
+    margin-left: 10px;
+    text-align: left;
+}
+
+footer{
+    background-color: #D8CA9F;
+    background-image: url(../BloomPetals/images/footer.png);
+    background-repeat: repeat;
+    background-size: contain;
+    z-index: 100;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    position: fixed;
+}
+
+

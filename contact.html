@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charest="UTD-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Damion&family=Neuton:ital@1&display=swap" rel="stylesheet">
+
+        <title> BloomPetals/Contact</title>
+    </head>
+
+
+    <body> <!--Contient  le contenu pricipale  de la page , comme le texte, les images et les liens -->
+        <div class="video-background"> 
+            <video autoplay muted loop>
+                <source src="../BloomPetals/images/fond2.mp4" type="video/mp4">
+               <source src="header-video.ogg" type="video/ogg">
+             </video>
+        </div>
+  
+        <header id="myHeader"> 
+            <nav>
+                <ul>
+                   <li><a href="../BloomPetals/index.html"> Home</a></li>
+                   <li><a href="../BloomPetals/entreprise.html"> Entreprise </a></li>
+                   <li><a href="../BloomPetals/realisation.html"> Réalisations </a></li>
+                   <li><a href="../BloomPetals/contact.html"> Contact</a></li>
+                   <form>
+                        <input class="recherche2" type="search" placeholder="Rechercher">
+                    </form>
+                    <div class="logo">
+                        <img src="../BloomPetals/images/logo.png" alt="logo bloom petals">
+                    </div>
+                </ul>
+                
+            </nav>
+  
+            
+        </header>
+
+        
+           
+        <main>
+
+                <section id="Formulaire">
+                    <div id="form">
+                      
+                      
+                        <form id="-form">  
+                            <img src="../BloomPetals/images/logo.png" alt="logo bloom petals">
+                            <p>Contactez-Nous</p>
+
+                            <div class="rowTab">
+                                <div class="labels"><!-- choix de la civilité-->
+                                    <label for="currentPos"> *Civilité :</label>
+                                </div>
+                            
+                                <div class="rightTab">
+                                    <select id="dropdown" name="currentPos" class="dropdown">
+                                        <option value="Madame">Mme</option>
+                                        <option value="Monsieur">Mr</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="rowTab"> 
+                                <div class="labels"><!-- demande de nom -->
+                                    <label id="name-label" for="name">*Nom :</label>
+                                </div>
+                                
+                                <div class="rightTab">
+                                    <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Nom" required>
+                                </div>
+                           </div>
+
+                            <div class="rowTab"> 
+                                <div class="labels"><!-- demande de Prenom -->
+                                    <label id="Surname-label" for="surname">*Prenom :</label>
+                                </div>
+                                <div class="rightTab">
+                                    <input autofocus type="text" name="surname" id="surname" class="input-field" placeholder="Prénom" required>
+                                </div>
+                           </div>
+                        
+                           <div class="rowTab">
+                                <div class="labels"><!-- demande d'adresse postal-->
+                                 <label id="adresse-label" for="adresse">*Adresse Postale :</label>
+                                </div>
+                          
+                                <div class="rightTab">
+                                    <input type="text" name="adresse" id="adresse" class="input-field" required placeholder="Ton Adresse Postale">
+                                </div>
+                            </div>
+                        
+                            <div class="rowTab">
+                                <div class="labels"><!--demande de code postal-->
+                                    <label id="number-label" for="age"> </label>
+                                </div>
+                                
+                                <div class="rightTab">
+                                     <input type="number" name="codePostal" id="codePostale" min="00000" max="99999" class="input-field" required placeholder="Ton code Postale">
+                                </div>
+                           </div>
+
+                           <div class="rowTab">
+                                <div class="labels"><!-- demande de Pays-->
+                                 <label id="adresse-label" for="adresse"> </label>
+                                </div>
+                          
+                                <div class="rightTab">
+                                    <input type="text" name="pays" id="pays" class="input-field" required placeholder="Ton Pays">
+                                </div>
+                            </div>
+                        
+                        
+
+                            <div class="rowTab">
+                                <div class="labels">
+                                    <label for="comments">Message:</label>
+                                </div>
+
+                                <div class="rightTab">
+                                    <textarea id="comments" class="input-field" style="height:50px; resize:vertical;" placeholder="Chaque commentaire nous fait avancer, alors n'hésites pas..."></textarea>
+                                </div>
+
+                            </div>
+
+                            <div class="rowTab">
+                                <div class="labels">
+                                    <label for="preferences"></label>
+                                </div>
+
+                                <div class="rightTab">
+                                    <ul id="preferences" style="list-style: none;">
+                                        <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">En cochant cette case je valide les politiques de confidentialité de
+                                            l'entreprise BloomPetals.</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <button id="submit" type="submit">Envoyer !</button>
+                        </form>
+                    
+                    </div>
+                
+                </section>
+            </main>
+            
+            <footer></footer>
+        </body>
+    </html>
+

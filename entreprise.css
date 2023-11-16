@@ -1,0 +1,212 @@
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#myHeader{
+    background-color: #D8CA9F;
+    width: 100%;
+    z-index:100 ;
+    height: 110px;
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+
+#myHeader img{
+    width: 130px;
+    height: 90px;
+}
+
+nav{
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Damion', cursive;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between ;
+}
+
+a{
+  color:rgb(7, 1, 4);
+  text-decoration: none;
+}
+
+nav li{
+   display: inline;
+   list-style: none;
+   margin-right: 20px;
+}
+form{
+    margin-left: 12cm;
+}
+
+input{
+    margin: 8px 20px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 30px;
+    border:none;
+    background-color: #f2f2f2;
+    outline:none;
+
+}
+
+/* body*/
+
+#presentation h1 {
+    font-family: 'Damion', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1.6em;
+    text-align: center;
+    margin-top: 4cm;
+}
+
+.case{
+    background-color: rgba(237, 226, 188, 0.635);
+    height: 100%;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(171, 167, 167, 0.1);
+    border-top: 0.5px solid  rgba(171, 167, 167, 0.1);
+    margin-bottom: 3cm;
+}
+
+.debut p {
+    text-align: center;
+    font-family: 'Damion', cursive;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    background-color: rgba(171, 167, 167, 0.1);
+    height: 300px;
+    width: 100%;
+    border-bottom: 0.5px solid  rgb(86, 88, 91) ;
+    border-top: 0.5px solid  rgb(86, 88, 91) ;
+}
+
+
+
+.ligne1 , .ligne3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+}
+
+.ligne1 p {
+   font-family : 'Neuton', empattement ;
+   font-size: 20px;
+   margin-top: 2cm;
+   margin-left: 1cm;
+   margin-right: 2cm;
+}
+
+.ligne1 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 6cm;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.ligne2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: rgba(129, 103, 13, 0.635);
+    border-bottom: 0.5px solid   #1a1814 ;
+    border-top: 0.5px solid   #1a1814 ;
+    margin-bottom: 3cm;
+}
+
+.colonne img{
+    height: 300px;
+    width: 270px;
+    border : 5px solid  #4d3e1176;
+    padding: 0.5px;
+    margin-left: 1cm;
+}
+
+.colonne h3{
+    color: #000;
+    text-align: center;
+    font-family: 'Damion', cursive;
+}
+.colonne p{
+    font-family : 'Neuton', empattement ;
+    color: black;
+    text-align: left;
+    margin-left: 1cm;
+}
+
+.ligne3 {
+    margin-top : 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ligne3 p{
+   font-family : 'Neuton', empattement ;
+   font-size: 20px;
+   margin-left: 3cm;
+   margin-right: 1cm;
+   margin-top: 3cm;
+}
+
+.ligne3 img {
+    width: 400px;
+    height: 400px;
+    margin-right: 6cm;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.ligne4{
+    margin-bottom: 4cm;
+}
+
+.ligne4 p{
+    text-align: center;
+    font-family: 'Damion', cursive;
+    font-size: 1.8em;
+    background-color: rgba(171, 167, 167, 0.1);
+    height: 100px;
+    width: 100%;
+    border-bottom: 0.5px solid  rgb(86, 88, 91) ;
+    border-top: 0.5px solid  rgb(86, 88, 91) ;
+}
+
+footer{
+    background-color: #D8CA9F;
+    background-image: url(../BloomPetals/images/footer.png);
+    background-repeat: repeat;
+    background-size: contain;
+    z-index: 100;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    position: fixed;
+}
